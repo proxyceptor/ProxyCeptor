@@ -1,0 +1,78 @@
+name: 🐛 Bug report
+description: Something in ProxyCeptor doesn't work the way it should.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug! 🙏
+        **Security problem?** Please don't file it here. Follow [SECURITY.md](https://github.com/proxyceptor/ProxyCeptor/blob/main/SECURITY.md) instead.
+        **Never paste real API keys (`sdm_live_…`), tokens or customer data.** Redact them.
+
+  - type: dropdown
+    id: surface
+    attributes:
+      label: Where did it happen?
+      options:
+        - JavaScript SDK (proxyceptor-sdk.js)
+        - Chrome extension
+        - Cloud dashboard (app.proxyceptor.com)
+        - Commander (proxyceptor.com/test)
+        - Live demo (proxyceptor.com/demo)
+        - Website (proxyceptor.com)
+        - Sign-in / account
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: environment
+    attributes:
+      label: Browser, device and version
+      description: e.g. "Chrome 131 on Windows 11", "Samsung Tizen 7 TV", "SDK v2.6.0"
+      placeholder: Chrome 131 on macOS 15, SDK v2.6.0
+    validations:
+      required: true
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you see, and what did you expect to see instead?
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Create a rule that matches `*/api/user*` with mode `merge-json`
+        2. Load the page and call `fetch('/api/user')`
+        3. The response is not modified
+    validations:
+      required: true
+
+  - type: textarea
+    id: rule
+    attributes:
+      label: Rule JSON (if relevant)
+      description: The rule that misbehaves, with secrets removed.
+      render: json
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Console output, screenshots or a HAR file
+      description: Drag and drop files here. Please redact anything sensitive.
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before you submit
+      options:
+        - label: I searched existing issues and this hasn't been reported yet.
+          required: true
+        - label: I removed API keys, tokens and personal data from this report.
+          required: true

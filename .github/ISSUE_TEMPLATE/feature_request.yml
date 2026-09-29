@@ -1,0 +1,57 @@
+name: 💡 Feature request
+description: Suggest an idea or a workflow ProxyCeptor should support.
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping shape ProxyCeptor! ⭐ Tip: the more a request is upvoted with 👍, the sooner it gets built.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem are you trying to solve?
+      description: Describe the situation, not the solution yet. e.g. "Our QA team can't test expired sessions on our Tizen app because…"
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: What would you like ProxyCeptor to do?
+    validations:
+      required: true
+
+  - type: dropdown
+    id: surface
+    attributes:
+      label: Which part of ProxyCeptor?
+      multiple: true
+      options:
+        - JavaScript SDK
+        - Chrome extension
+        - Cloud dashboard / team rules
+        - Commander (REST client)
+        - Smart TV support
+        - Docs and guides
+        - Something new
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: What do you use today instead?
+      description: Workarounds, other tools (Charles, Proxyman, Requestly, MSW…), or nothing.
+
+  - type: dropdown
+    id: role
+    attributes:
+      label: Your role
+      options:
+        - Frontend developer
+        - QA / test engineer
+        - Smart TV / OTT developer
+        - Backend / API developer
+        - Security tester
+        - Engineering manager
+        - Other

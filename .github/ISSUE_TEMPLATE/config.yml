@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 🔒 Report a security vulnerability
+    url: https://github.com/proxyceptor/ProxyCeptor/security/advisories/new
+    about: Please report security issues privately, never in a public issue.
+  - name: 💬 Ask a question
+    url: https://github.com/proxyceptor/ProxyCeptor/discussions
+    about: How-to questions and ideas are welcome in Discussions.
+  - name: 📚 How-to guides
+    url: https://proxyceptor.com/how-to
+    about: 20+ step-by-step guides for mocking, rewriting, delaying and blocking API calls.
+  - name: ▶️ Live demo
+    url: https://proxyceptor.com/demo/
+    about: Try the SDK in your browser, no sign-up needed.
