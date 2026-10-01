@@ -370,7 +370,7 @@ Soon. Watch this repo (<b>Watch → Custom → Releases</b>) to hear about it fi
 | 💡 **Request a feature** | [Suggest a feature](https://github.com/proxyceptor/ProxyCeptor/issues/new?template=feature_request.yml) |
 | 💬 **Ask a question** | [GitHub Discussions](https://github.com/proxyceptor/ProxyCeptor/discussions) |
 | 🔒 **Report a security issue** | Privately, please: see [SECURITY.md](SECURITY.md) |
-| 🐦 **Follow along** | [X / Twitter](https://x.com/proxyceptor) · [YouTube](https://www.youtube.com/@proxyceptor) |
+| 🐦 **Follow along** | [X / Twitter](https://x.com/proxyceptor) · [YouTube](https://www.youtube.com/@proxyceptor)  · [Instagram](https://www.instagram.com/proxyceptor/) · [Facebook](https://www.facebook.com/profile.php?id=61595134762422) |
 | ✉️ **Talk to us** | [admin@proxyceptor.com](mailto:admin@proxyceptor.com) |
 
 **Know a team that still fights with proxy certificates?** [Share ProxyCeptor on X](https://x.com/intent/post?text=ProxyCeptor%3A%20mock%2C%20rewrite%2C%20delay%20and%20block%20API%20calls%20in%20Chrome%20and%20on%20Smart%20TVs%2C%20with%20no%20SSL%20certificates.&url=https%3A%2F%2Fgithub.com%2Fproxyceptor%2FProxyCeptor) or [on LinkedIn](https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fgithub.com%2Fproxyceptor%2FProxyCeptor).
